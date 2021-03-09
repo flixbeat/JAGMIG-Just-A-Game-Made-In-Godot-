@@ -1,0 +1,25 @@
+[gd_scene format=2]
+
+[node name="CoinCanvas" type="CanvasLayer"]
+
+[node name="coin-label" type="Label" parent="."]
+margin_left = 135.688
+margin_top = 68.3917
+margin_right = 206.688
+margin_bottom = 82.3917
+rect_scale = Vector2( 5, 5 )
+text = "coins:"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="coin-value" type="Label" parent="."]
+margin_left = 336.0
+margin_top = 64.0
+margin_right = 407.0
+margin_bottom = 78.0
+rect_scale = Vector2( 5, 5 )
+text = "0"
+__meta__ = {
+"_edit_use_anchors_": false
+}
